@@ -1,6 +1,6 @@
 body {
 	display: flex;
-	flex-direction: coulmn;
+	flex-direction: column;
 }
 
 main {
