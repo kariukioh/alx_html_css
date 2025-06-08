@@ -2,7 +2,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0; padding: 0; height: 100vh;
+
+	font-family: Arial, sans-serif;
+	background color: #f0f0f0;
+	color: 333;
 }
+
 
 main {
 	display: flex;
@@ -11,12 +16,29 @@ main {
 	min-height: 0;
 }
 
+
 article {
 	flex: 2;
 	overflow-y: auto;
+
+	background-color: white;
+	padding 20px;
+	border-right: 1px solid #ccc;
 }
+
 
 aside {
 	flex: 1;
 	overflow-y: auto;
+	background-color: #f9f9f9;
+	padding: 20px;
 }
+
+
+footer {
+	background-color: #003366;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
