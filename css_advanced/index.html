@@ -5,104 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
     <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <nav>
-            <img src="https://fakeimg.pl/250x250?text=Sample+Logo" alt="logo">
+        <nav class="navbar">
+
+            <img src="./images/logo.png" alt="logo" /
           
-            <ul>
-                <li><a href="#">COURSE</a></li>
-                <li><a href="#">PRICING</a></li>
-                <li><a href="#">LOGIN</a></li>
+            <ul class="nav-links">
+                <li class="nav-linksLi"><a href="#" class="nav-linksA">COURSE</a></li>
+                <li class="nav-linksLi"><a href="#" class="nav-linksA">PRICING</a></li>
+                <li class="nav-linksLi"><a href="#" class="nav-linksA">LOGIN</a></li>
             </ul>
         </nav>
         
     </header>
     <main>
-	    <section class="hero">
-		    <img src="https://drive.google.com/uc?export=view&id=1wE6qoNMA0suYqm--qeq7mWlpCtM02uyc" alt="Top banner image">
-	    </section>
-	    <section> 
-            <div>
-                <h1>Get schooled</h1>
+	    <section class="headerAndBanner">
+            <div class="firstHeader">
+                <h1 class="topTitle">Get schooled</h1>
+            <div class="serviceHeader">
                 <span>SMILES</span>
                 <span>GRIN</span>
                 <span>LAUGH</span>
-                <button>REGISTER FOR FREE</button>
+                </div>
+                <button class="registerFreeButtonInHeader">REGISTER FOR FREE</button>
             </div>
-            <div>
-                <h2>Learn from the pros</h2>
-                <div>
-                    <div>
-                        <img src="./images/1 (3).png" alt="">
+
+            <div class="learnPros">
+                <h2 class="h2Learnpro"><span>Learn</span> from the pros</h2>
+                <div class="pros">
+                    <div class="individualPro">
+                        <img src="./images/1 (3).png" alt="pro Phillip">
                         <h3>Phillip Massey</h3>
                         <p>« Smile of the year » 2018 - 2019</p>
                     </div>
-                    <div>
-                        <img src="./images/6.png" alt="">
+                    <div class="individualPro">
+                        <img src="./images/6.png" alt="pro Nannie">
                         <h3>Nannie Lawrence</h3>
                         <p>Best « little smile » 2017</p>
                     </div>
-                    <div>
-                        <img src="./images/7.png" alt="">
+                    <div class="individualPro">
+                        <img src="./images/7.png" alt="pro Bruce">
                         <h3>Bruce Walters</h3>
                         <p>Best « Friend Smile » live performance 2019</p>
                     </div>
-                    <div>
-                        <img src="./images/8.png" alt="">
+                    <div class="individualPro">
+                        <img src="./images/8.png" alt="pro Henry">
                         <h3>Henry Hughes</h3>
                         <p>« 24h smiles » winner 2016 - 2019</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="quoteParent">
+            <div class="quoteImage">
                 <img src="./images/Bitmap.png" alt="image">
             </div>
-            <div>
+        
+            <div class="quote">
                 <blockquote>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</blockquote>
                 <h3>NAME</h3>
                 <P>weather presenter</P>
             </div>
         </section>
-        <section>
-            <h2>Most popular tutorials</h2>
-            <div>
-                <img src="./images/Bitmap (1).png" alt="">
-                <h3>Diagonal Smile</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="./images/1 (3).png" alt="">
+
+        <section class="videosParent">
+            <h2 class="populaTutorials">Most <span>popular</span> tutorials</h2>
+            <div class="videoListParent">
+                <div class="videolists">
+                    <img src="./images/9.png" alt="" class="videoThumbnail" />
+                    <img src="./images/play.png" alt="" class="videoplay" />
+                <div class="videoContent">
+                    <h3 class="contentTitle">Diagonal Smile</h3>
+                <p class="vidContentDescription">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div class="vidAuthorName">
+                    <img src="./images/1.png" alt="" class="authorImage" />
                     <h4>Phillip Massey</h4>
                 </div>
-                <div>
+                <div class="rateAndTime">
+                    <div class="rating">
                     <div><i class="fa-solid fa-star"></i></div>
                     <div><i class="fa-solid fa-star"></i></div>
                     <div><i class="fa-solid fa-star"></i></div>
                     <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
+                    <div><i class="fa-solid fa-star fa-unrated"></i></div>
                 </div>
-                <p>8 min</p>
+                <p class="time">8 min</p>
             </div>
-            <div>
-                <img src="./images/Bitmap (4).png" alt="">
-                <h3>Happy Smile</h3>
-                <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="./images/1 (3).png" alt="">
-                    <h4>Phillip Massey</h4>
-                </div>
-                <div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                </div>
-                <p>8 min</p>
+        </div>
+    </div>
+    <div class="videoLists">
+        <img src="./images/6.png" alt="" class="videoThumbnail" />
+        <img src="./images/play.png" alt="" class="videoplay" />
+        <div class="vidContent">
+            <h3 class="contentTitle">Diagonal Smile</h3>
+            <p class="vidContentDescription">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+            <div class="vidAuthorAndName">
+                <img src="./images/1.png" alt="" class="authorImage" />
+                <h4>Phillip Massey</h4>
             </div>
+
+            <div class="rateAndTime">
+                <div class="rating">
+                    <div><i class="fa-solid fa-star"></i></div>
+                    <div><i class="fa-solid fa-star"></i></div>
+                    <div><i class="fa-solid fa-star"></i></div>
+                    <div><i class="fa-solid fa-star"></i></div>
+                    <div><i class="fa-solid fa-star fa-unrated"></i></div>
+                </div>
+                <p class="time">8 min</p>
+            </div>
+        </div>
+    </div>
             <div>
                 <img src="./images/Bitmap (3).png" alt="">
                 <h3>Natural Smile</h3>
@@ -118,7 +144,7 @@
                     <div><i class="fa-solid fa-star"></i></div>
                     <div><i class="fa-solid fa-star"></i></div>
                 </div>
-                <p>8 min</p>
+                <p class="time">8 min</p>
             </div>
             <div>
                 <img src="./images/Bitmap (2).png" alt="">
@@ -135,40 +161,43 @@
                     <div><i class="fa-solid fa-star"></i></div>
                     <div><i class="fa-solid fa-star"></i></div>
                 </div>
-                <p>8 min</p>
+                <p class="time">8 min</p>
             </div>
         </section>
-        <section>
-            <h2>Free membership</h2>
-            <div>
-                <img src="./images/smile.svg" alt="">
+        <section class="membershipParent">
+            <h2 class="freeMembership"><span>Free</span> membership</h2>
+            <div class="membersContent">
+                <div class="membersindividualContent"
+                <img src="./images/smile.png" alt="">
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div>
-                <img src="./images/smile.svg" alt="">
+            <div class="membersindividualContent">
+                <img src="./images/smile.png" alt="">
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div>
-                <img src="./images/smile.svg" alt="">
+            <div class="membersindividualContent">
+                <img src="./images/smile.png" alt="">
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div>
-                <img src="./images/smile.svg" alt="">
+            <div class="membersindividualContent">
+                <img src="./images/smile.png" alt="">
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <button>REGISTER FOR FREE</button>
+            <button class="registerForFreeForInMembers">REGISTER FOR FREE</button>
         </section>
-        <section>
-            <h2>F.A.Q</h2>
-            <div>
-                <div>
-                    <div>
+
+        <section class="FAQParent">
+            <h2 class="allFAQQuestions">F.A.Q</h2>
+            <div class="allFAQQuestions">
+                <div class="columnFAQ">
+                    <div class="faqContent">
                         <h3>How does this work?</h3>
                     </div>
+                </div>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
@@ -180,7 +209,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </div>
-                <div>
+                <div class="faqContent">
                     <div>
                         <h3>How does this work?</h3>
                     </div>
@@ -195,20 +224,22 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section>
     </main>
     <footer>
-        <section>
+        <section class="footerSection">
             <div>
-                <img src="https://fakeimg.pl/250x250?text=Sample+Logo" alt="logo">
+                <img src="./images/logo.png" alt="logo">
                 <div>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
-            <p>©smileschool 2020</p>
+            <p class="copyright">©smileschool 2020</p>
         </section>
     </footer>
 </body>
 </html>
+

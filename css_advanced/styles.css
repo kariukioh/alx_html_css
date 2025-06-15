@@ -1,6 +1,375 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
-    <title>Document</title>
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans 3", 'Arial', sans-serif;
+    color: #071629;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    color: #fff;
+    height: 1093px;
+    width: 100%;
+    background-image: url('./images/Object.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top;
+    background-color: #071629;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 165px;
+    margin-left: 172px;
+    padding-top: 35px;
+}
+
+.navLinksUl {
+    display: flex;
+    list-style: none;
+}
+.navLinksLi {
+    margin-left: 52px;
+}
+.navLinksA {
+    font-family: "Source Sans 3";
+    color: white;
+    text-decoration: none;
+    font-size: 12;
+    font-weight:600;
+}
+main{
+    position: relative;
+    z-index: 2;
+    top: 220px;
+}
+
+.firstHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.topTitle{
+    font-size: 120px;
+}
+.serviceHeader {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    top: -20px;
+}
+
+.registerFreeButtonInHeader {
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    background: #C271FF;
+    color: #fff;
+    border-style: none;
+    border-radius: 22px;
+}
+
+.headerAndBanner {
+    height: 870px;
+}
+.learnPros {
+    position: relative;
+    top: 170px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2Learnpro {
+    font-size: 32px;
+    font-weight: normal;
+
+}
+
+.h2Learnpro span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.pros {
+    position: relative;
+    top: 87px;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.individualPro {
+    
+}
+.individualPro img {
+    height: 150px;
+    width: 150px;
+}
+.individualPro p {
+    width: 150px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quoteParent {
+    background-color: #C271FF;
+    height: 390px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteImage {
+    height: 160px;
+    width: 160px;
+    margin-right: 50px;
+}
+
+.quote {
+    font-size: 22px;
+    width: 730px;
+    height: 158px;
+    font-style: italic;
+}
+.quote h3{
+    font-size: 22px;
+    margin-top: 22px;
+    font-style:normal;
+}
+.videosParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 87px 106px 87px 106px;
+    padding-left: 58px;
+    padding-right: 58px;
+}
+
+.popularTutorials {
+    height: 40px;
+    color: #071629;
+    font-size: 32px;
+    font-weight:normal;
+    margin-bottom: 75px;
+}
+.popularTutorials span{
+    color: #C271FF;
+    
+}
+
+.videoListParent {
+    display: flex;
+    gap: 31px;
+}
+.videoLists {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 335px;
+}
+.videoLists .videoThumbnail{
+    height: 154px;
+}
+.videoplay{
+    height: 64px;
+    width: 64px;
+    position: relative;
+    top: -115px;
+    left: 95px;
+}
+.vidContent {
+    position: relative;
+    top: -64px;
+    margin-left: 13px;
+}
+
+.contentTitle {
+    font-size: 16px;
+}
+
+.vidContentDescription {
+    font-size: 14px;
+}
+
+.authorImage{
+    width: 30px;
+    height: 30px;
+}
+
+.vidAuthorAndName {
+    display: flex;
+    position: relative;
+    top: 14px;
+    align-items: center;
+}
+.vidAuthorAndName h4{
+    color: #C271FF;
+    position: relative;
+    left: 13px;
+}
+
+.rateAndTime {
+    display: flex;
+    position: relative;
+    top: 28px;
+    gap: 79px;
+}
+
+.rating {
+    display: flex;
+    gap: 8px;
+}
+.fa-solid {
+    color: #C271FF;
+}
+.fa-unrated {
+    color: #D8D8D8;
+    border-style: none;
+}
+.time {
+    font-size: 14px;
+    color: #C271FF;
+}
+
+.membershipParent {
+    background: #071629;
+    color: #fff;
+    height: 502px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.freeMembership {
+    font-size: 32px;
+}
+.freeMembership span{
+    color:#C271FF;
+}
+.memberscontent {
+    margin-top: 58px;
+    margin-bottom: 85px;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+.membersindividualContent {
+    width: 257px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.membersindividualContent img{
+    height: 44px;
+}
+
+.membersindividualContent h3{
+    font-size: 18px;
+}
+
+.membersindividualContent p{
+    font-size: 14px;
+    text-align: center;
+    width: 212px;
+    line-height: 26px;
+}
+
+.registerForFreeInMembers {
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    background: #C271FF;
+    color: #fff;
+    border-style: none;
+    border-radius: 22px;
+}
+
+.FAQParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 67px;
+    margin: 67px 271px 84px 249px;
+}
+
+.FAQTitle {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.allFAQQuestions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+}
+
+.ColumnFAQ {
+
+}
+
+.faqContent {
+    width: 350px;
+    height: 242px;
+    margin-top: 74px;
+}
+.faqContent h3{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.faqContent p{
+    font-size: 14px;
+    color: #07162972;
+}
+
+footer {
+    position: relative;
+    top: 220px;
+    height: 249px;
+    background: #071629;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footerSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 736px;
+}
+
+.fa-brands {
+    color: #fff;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.copyright {
+    position: relative;
+    top: 70px;
+    font-size: 12px;
+    color: ;
+}
